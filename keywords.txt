@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map For tsys02d
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+tsys02d	KEYWORD1
+tsys02_status	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+is_connected	KEYWORD2
+read_serial_number	KEYWORD2
+reset	KEYWORD2
+read_temperature	KEYWORD2
+set_i2c_master_mode	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+tsys02_i2c_hold		LITERAL1
+tsys02_i2c_no_hold	LITERAL1
+
+tsys02_status_ok	LITERAL1
+tsys02_status_i2c_transfer_error	LITERAL1
+tsys02_status_no_i2c_acknowledge	LITERAL1
+tsys02_status_crc_error	LITERAL1
