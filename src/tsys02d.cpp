@@ -30,8 +30,14 @@ enum tsys02d_i2c_master_mode i2c_master_mode;
 
 // Fonctions
 tsys02d::tsys02d(void) {
-  Wire.begin();
   i2c_master_mode = tsys02d_i2c_no_hold;
+}
+
+/**
+ * \brief Perform initial configuration. Has to be called once.
+ */
+void tsys01::begin(void) {
+  Wire.begin();
 }
 
 /**

@@ -25,6 +25,11 @@ public:
   tsys02d();
 
   /**
+   * \brief Perform initial configuration. Has to be called once.
+   */
+  void begin();
+
+  /**
    * \brief Check whether TSYS02D device is connected
    *
    * \return bool : status of TSYS02D

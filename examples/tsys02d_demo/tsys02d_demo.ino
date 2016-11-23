@@ -11,6 +11,7 @@ void setup() {
   Serial.println("======== TSYS02D =========");
   Serial.println("======== Measure =========");
 
+  m_tsys02d.begin();
   m_tsys02d.set_i2c_master_mode(tsys02d_i2c_hold);
 }
 
